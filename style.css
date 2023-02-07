@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100vw;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.city-weather {
+  margin-top: 6rem;
+  width: 20rem;
+  height: 20rem;
+  background-color: hsla(33, 100%, 78%, 1);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}

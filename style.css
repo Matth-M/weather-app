@@ -10,13 +10,23 @@ html {
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .city-weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 6rem;
   width: 20rem;
   height: 20rem;
-  background-color: hsla(33, 100%, 78%, 1);
+  background-color: hsla(46, 100%, 95%, 1);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+form {
+  margin-top: 8rem;
 }
